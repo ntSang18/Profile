@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    background-color: #5D8BF4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #ffffff;
+}
+
+.container h1 {
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.container h3 {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.container h3 i {
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.container ul {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.container ul li {
+    padding: 10px;
+}
+
+.container ul li a {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F5EB;
+    width: 400px;
+    height: 80px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.container ul li a i:first-child {
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 8px;
+    color: #ffffff;
+}
+
+#facebook {
+    background-color: #3b5998;
+}
+
+#instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+#gmail {
+    background-color: #BB001B;
+}
+
+#phone {
+    background-color: #413F42;
+}
+
+.container ul li a i:last-child {
+    background-color: inherit;
+    font-weight: 800;
+}
+
+@media (max-width:799px) {
+    .container img {
+        width: 200px;
+        height: 200px;
+    }
+    .container ul li a {
+        width: 500px;
+    }
+}
+
+@media (max-width:477px) {
+    .container img {
+        width: 100px;
+        height: 100px;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    .container ul li a {
+        width: 300px;
+        height: 65px;
+    }
+
+}
